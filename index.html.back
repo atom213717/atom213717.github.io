@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Turtisko^^</title>
+    <link rel="icon" href="tur.png" type="image/png">
+    <style>
+        .gif-container {
+            display: flex;
+            justify-content: space-between; /* Ustawienie odstępu między gifami */
+            align-items: center; /* Wyśrodkowanie w pionie */
+        }
+
+        .gif-container img {
+            max-width: 33%; /* Maksymalna szerokość każdego gifa */
+        }
+    </style>
+</head>
+<body>
+  <h1> Spoiler </h1>
+  <h2> Turteł robi jutro liva o 16</h2>
+  <img src="1129547155246428171.gif" alt="gifffff">
+  
+    <div class="gif-container">
+        <img src="fur.gif" alt="GIF 1">
+        <img src="tur.gif" alt="GIF 2">
+        <img src="dur.gif" alt="GIF 3">
+    </div>
+</body>
+</html>
+
