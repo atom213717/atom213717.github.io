@@ -1,12 +1,13 @@
 <?php
 session_start();
+$config = require 'config.php';
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $username = $_POST['username'];
     $password = $_POST['password'];
 
-    // Sprawdź poprawność danych logowania
-    if ($username == 'admin' && $password == '123456789') {
+    // Sprawdź poprawność danych logowania z pliku konfiguracyjnego
+    if ($username == $config['username'] && $password == $config['password']) {
         $_SESSION['loggedin'] = true;
         header("Location: admin.php");
         exit();
