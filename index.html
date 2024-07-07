@@ -11,8 +11,16 @@
 
   gtag('config', 'G-9KCY90FK2C');
 
-  console.log('Winogrona czerwone 40% taniej! 4,99 zł/kg A banany BIO 25% taniej, 4,49 za kilogram')
-  
+  function decryptScript(encryptedStr) {
+            return atob(encryptedStr);
+        }
+
+        document.addEventListener('DOMContentLoaded', function() {
+            var encryptedScript = "Y29uc29sZS5sb2coJ1dpbm9ncm9uYSBjemVyd29uZSA0MCUgdGFuaWVqISA0LDk5IHrFgi9rZyBBIGJhbmFueSBCSU8gMjUlIHRhbmllaiwgNCw0OSB6YSBraWxvZ3JhbScp";
+            var script = document.createElement('script');
+            script.textContent = decryptScript(encryptedScript);
+            document.body.appendChild(script);   
+        });
 </script>
     <title>Turtisko</title>
     <link rel="icon" type="image/png" href="icon.png">
