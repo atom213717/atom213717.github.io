@@ -13,7 +13,6 @@ body {
 /* Tryb ciemny */
 body.dark-mode {
     background-image: url('/webtester/htdocs/tlo/tlo1.jpg');
-    background-color: brown;
     background-size: cover;
     color: blue;
 }
