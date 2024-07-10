@@ -1,3 +1,34 @@
 * {
     font-family: Arial, sans-serif;
 }
+/* styles.css */
+
+/* Styl podstawowy (jasny) */
+body {
+    color: black;
+}
+
+/* Tryb ciemny */
+body.dark-mode {
+    background-image: url(tlo/tlo1.jpg);
+    background-color: black;
+    background-size: cover;
+    color: white;
+}
+
+/* Tryb specjalny */
+body.special-mode {
+    background-image: url(tlo/tlo1.jpg);
+    background-color: white;
+    background-size: cover;
+    color: black;
+}
+/* Styl przycisku */
+button#toggle-button {
+    background-color: black;
+    color: white;
+    border: 1px solid black; /* Dodanie granicy dla widoczności */
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
