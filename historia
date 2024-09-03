@@ -1,0 +1,210 @@
+<!-- lubisz zaglądać kod źrudłowy, nie? -->
+<!DOCTYPE html>
+<html lang="pl">
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<script>
+  console.log('Winogrona czerwone 40% taniej! 4,99 zł/kg A banany BIO 25% taniej, 4,49 za kilogram')
+</script>
+    <title>Turtisko</title>
+    <link rel="icon" type="image/png" href="icon.png">
+    <meta property="og:title" content="Turtełowa strona"> 
+    <meta property="og:description" content="Żółwi zakątek internetu"> 
+    <link rel="stylesheet" href="skr/style.css">
+    <script src="skr/gtag.js" defer></script>
+
+<style>
+    body {
+  background-image: url(rtwgwrgwrgwrg.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  max-width: 1230px;
+  margin: auto;
+  padding: 15px;
+}
+img  {
+  width: 100%;
+}
+
+div {
+  background: rgba(255, 255, 254, 0.3);
+  border: 2px solid black;
+  padding: 5px;
+  margin: 2;
+
+}
+
+.accordion {
+    margin: 20px;
+}
+
+.accordion-button {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    text-align: left;
+    outline: none;
+    font-size: 16px;
+    
+}
+
+.accordion-button:hover {
+    background-color: #0056b3;
+}
+
+.accordion-content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #f1f1f1;
+}
+.container {
+            width: 300px;
+            border: 2px solid #000;
+            padding: 20px;
+            margin: 0 auto;
+            text-align: center;
+            border-radius: 10px;
+        }
+
+        .button-link {
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        .button-link button {
+            background-color: #4CAF50; /* Zielony */
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            width: 100%;
+        }
+
+        .button-link button:hover {
+            background-color: #006600; /* Ciemniejszy zielony */
+        }
+
+        .info {
+            margin-top: 20px;
+            font-size: 14px;
+            color: #555;
+        }
+</style>
+
+
+<img src="Grafiki na strone/banner.gif" alt="banner">
+<a href="https://turtlisko.ovh/" class="button-link"><button>Aktualności</button></a>
+<a href="Poradniki.html" class="button-link"><button>Poradniki</button></a>
+<a href="Wynikiankiet.html" class="button-link"><button>Wyniki Ankiet</button></a>
+<a href="Przydatnewt.html" class="button-link"><button>Przydatne Strony do WT</button></a>
+<a href="kalendarzwt.html" class="button-link"><button>Kalendarz gracza WT</button></a>
+<a href="historia.html" class="button-link"><button>historia kanału</button></a>
+<img src="Grafiki na strone/akt.png" alt="banner">
+<div>
+<h2> Krótka (chyba) historia YouTubowego kanału pewnego piwniczaka z intrnetu </h2><br>
+
+<strong>Prolog - o co chodzi z żółwiami?</strong>
+Jako że jestem w internecie kojarzony jako żółw ... warto omówić dlaczego bo nie jest wiązane z kanałem 
+bezpośrednio <br>
+A więc .. nie wiem do końca, jako kidos dostałem fiksacje na temat żółwi po tym jak w moim domu pojawił się żółf kuba i wsumie tyle, nie ma to większego raciolnaego sensu ... ale już w głowie zostało skrzywienie do dziś ... choć raczej dlatego, już ten aspekt się do mnie przywarł że jestem kojażony z żółwiami 
+<br><br>
+<strong>"1" Kanał - "#nikogo"</strong><br>
+pod koniec 2016, gdzieś tam w połowie gimnazjum coś mnie wzieło do założenia kanału na YT ... nie wiem w sumie dlaczego, może nuda, może chęć jakiegoś wyrażenia się "artystycznie" bo już tedy miałem tendencje do rzadkiego wychodzenia z domu czy unikania tego jak ktoś próbował mnie wyciągnoć (choć tego nie byłem w sumie świadom), nagrałem w grudniu pierwszy filmik na kanale, gameplay z Don't Starve Shipwrecked ... w kilku filmach grając DSS rozgrywałem po 4dni w grze, gdzie nawet głosu nie podkładałem i ... w tle sobie oglądałem YT na telefonie (gdzie nagrywając 1 filmik uszkodziłem telefon do stopnia że gdzies po pół roku skoczył z ... dosłownie "wyrwanym" ekranem dotykowym ... choć lepszym określeniem jest że "odpadł"<br>
+<br>
+Nie nagrywałem nic niesamowitego, jakieś inne gameplaye ... chyba na ferie 2017 siedząc samemu w domu nagrałem pierwszy gameplay z kometarzem głosowym z gry Empire Earth II, choć chyba zaraz później przestalem jakoś nagrywać przez jakiś czas, analityka YT pokazuje mi że tedy zdobyłem ... całe 250 wyswietleń, choć nie wiem na ilu filmach (o czym później), raczej po krótkim czasie ukryłem te filmy<br>
+<br>
+
+<strong>2 kanał? - Turteł 1.0</strong><br>
+Do filmów z wczeniej nie miałem jakiegoś wielkiego przywiązania, więc przejdzmy do lata 2017 gdzie można powiedzęć że "2 kanał" powstał (choć to było na wszystko na tym poprzednim jeszcze)
+w tamtym okresie zakręciłem się w streamy twórcy "Foksa", siedziałem na jego streamach , dostałem (mocno losowo) moderatora i jakoś polubiłem sie z innymi jego moderami, sobie z nimi gadałem i po jakiś czasie w formie takiego małego "community moderatorów" zaczołem sobie robiś własny kanał na YT <br>
+<br>
+tematy tych filmów były przeróżne (bo też już tedy miałem awersje do nagrywania gameplay jaką dziś na kanale widzicie :P) od nagrywanych dykafonem w telfoenie jakiś filmów typu "dlaczego YT opiera się na YUTUBOWYCH MAFIACH"(irytowałem się że ludzie sie collabowali na YT xD) czy ... nie wiem, inne pierdoły  ala. vibe "15latek sobie robi pierdoły do internetu", choć ważnejsze jest że już na nowym telefonie robiłem pierwsze streamy które chyba już bardziej "rozwiałay" mój kanał, które potem przeżuciłem się na robienie ich na moim lapotopiku :P<br>
+<br>
+czas mijał, a w czerwcu 2018 założyłem konto na Discordzie i pierwszy serwer z "Turtlisk", i co można powiedzieć ... serwer discord, jak serwer discord, wieczne dramki, drameczki, bo nie że co, ale przyjaznie internetowe się kończą na tym że coś komuś nie pasuje* (no nie wiem, bo komuś nie chcesz dać bana (jest 3lata młodszy od reszty xD), czy nie chcez założyć kanału NSFW bo ... (bruh, jak nie rozumiesz tego, to trochę mi przykro ciebie)
+no i z czasem leciał czas, streamy robiłem, filmy też czy się "tłukło" na discordach, choć trudno z tych czasów coś ciekawszego powiedziec ... jedynie co to z czasem mój pierwszy laptop padł podczas robienia minaturki na YT stream z serii przechodzenia Half Life 2 ... laptop nie wytrzymał zmiany mapy w G-modzie i się, spalił ... nie że płomień był jakiś ... ale się przegrał na śmierć i tyle<br>
+<br>
+jest lato 2019<br>
+z czasem na skutek tych wiecznych dramek, czy tam innej discordowej ropy skasowałem wszystkie filmu i serwer discord ... płacząc, zwyczaje chciałem się odciąć od wszystkiego na jakis czas<br>
+<br>
+kończąs ten segment warto dodać kilka dodatkowym informacji<br>
+Co do samego mojego podejcia do discorda i ludzi na nich, mam wrażenie że z czasem trudno zbudować na tej platfomie jakieś wielkie community które bazuje na losowych ludzich ... nie ważne ile będziecie się "znać", wystaczy jakaś pierdoła i nawet nawiększy discord umie się rozjebać, bo opiera się na ludziach którzy realnie jakoś malo są ze sobią zrzyci ze sobą, czy coś ... takich momentach ja jako piwniczak sobie przyominam jak nie trwałe znajmosci mam ... choć pamiętam że miałem jakąś też prymitywną urazę że nie umiałem się przebić dalej z filmai i miałem z ... 300sub<br>
+<br>
+w tych czasach powstał mój nick "Turteł" ... a geneza jest prosta, byłem świadom że nick "Turtle ;_;" na YT trudno wyszukać, to chciałem dać coś łatwiejszego do zapamiętania i wyszukania ... no to wziełem słowo "Turtle", połączyłem z "Piesełem" ... Turt ... eł ... Turteł<br>
+<br>
+zasadniczo kanał o którym mowa, nadal istnieje i wstawiam na nim jakiś śmietnik, jest to ten kanał  https://www.youtube.com/channel/UCLZ6GqSpVmjoJgGCm39FrXw ... oczywiscie nic tam nie ma bo, skasowałem jak wczeniej napisałem, ale nadal z tego korzystam do prywatnego używania YT, i czasami sobie pisze jakieś kometarze na YT
+<br>
+ostatecznie filmy z "2 pierwszych kanałów" to całkowite lost media, choććć ... kiedyś dość często szukałem streamów na YT z "oceniania kanałów" ... może gdzieś na czyjeś trasmiji na żywo zapisały się szczątki mojego pierwotnego kanał z okresu 2017-2019, osobiscie nawet mi się szukać chciało, chyba nie ma co, choć czasami żałuje że wszystko wyjebałem co było<br>
+<br>
+<br>
+<strong>3 Kanał - ... albo 2 kanał (zależy jak kto patrzy)</strong><br>
+po ochłonięciu jakiś czas, odcięciu się od interntum jednak jak bumerang po czasie do mnie to wróciło, zachciałem znów coś robić w internecie i założyłem 2 kanał na YT, ten z którego już mnie znacie, choć początkwo na nim było znacznie inne tresci, które nadal możecie zobaczyć bo już "archwizuje wszystko" na playliscie "stare filmy" ... w skrócie robiłem streamy, po czym montowałem i wstawiałem na YT, nic nie samowitego, inspirowałem się kanałem "A Jolly Wangcore" jeżeli chodzi o styl kontentu, choć BARDZO nie chciałem nagrywać jednej gry aby tylko z niej być kojarzony (ironic) i tak pojawiały się filmy z Half Lifów, minectafta czy ... ło cie, nie zgadniecie ... Wa Thunda xD<br>
+<br>
+po kilku miesiacach dowiedziałem się o pewnym YT projkecie dla małych twórców, bo jeden z widzów mi podesłał namiary do tego projekciuk "Strumyczkowo 2", taki minecraft SMP prowadzonego przez grafa i cyferkowego dla wałaśnie małych YT twórców, i będe szczerym, jak pisałem dowiedziałem się o tym przez widza, i dołączyłem tam jako najmniejszy twórca na kilka godzin przed startem xDDD<br>
+<br>
+i oj, nie dojrząły (i introwetyczny) ja myślał że sam fakt bycia na takowym serwerze to natychmiastowy "boom" dla kanału, normalnie zaraz będe kurła sławny ... choć w zasadzie robiąc tam jakiś kontent, głownie sobie budowałem domeczek na wysepce i czasami intarkowałem się z innymi, choć powstał jeden typowo filmik ze mną jako "gosciem na filmie" i czasami sam sobie po streamowalem, ale sam sobie mój udział był "mocno introwetryczny" 
+ostatecznie jak typowy Minecfratowy serwer, skoczył się po tygodniu xD<br>
+<br>
+eh, i tutaj odjebalem jedną rzecz której mi bardzo żal ... pamiętam z "projektowego" serwera discord wyszedłem zachowójąc się jak totalny chujek, wypisująć że "łeee bo mi nawet nic nie dał ten serwer, strata czasu i wypierdalam" .... eh ... chyba najgłupsza rzecz którą zrobilem w życiu <br>
+<br>
+krótko później ... pademija nietoperka się zaczeła, no i pamiętam filmik gdzie pierwszy (i chyba jedyny) na surwiwalu pokonałem smoka w MC, dość dziwna sytułacja, tedy była mocno panika pamdemiczna, musiałem z domu wyjechać z domu na 2 tygodnie, bo starzy wrócili z zagranicy i musieli w domu spędzić kwaratanę, wczeniej wspomiany filmik ze smokiem musiałem na "szybko" kończyć robić i wstaiwać na YT, bo trzebało "wspierdlać" z domu aby ja i brat nie byli obięci kwarataną ... później nie mają czasu nawet zrobić minaturki do tego filmiku, on się "słabo obejrzał" i "choc ratować" kanał poraz pierwszy pokazałm mordę w internetach -_- ... w sumie nie wiem po co, krótko po tym "pamdemia" dobiła moje chęci do robinia filmow ... a tam jeszcze pewnie szczypta discordowych aferkek i znów sobie zniklem na jakiś czas i nie chciałem wracać do internetu <br>
+<br>
+mijał czas, i z czasem do War Thunder zapowiedziano update 2.01 "New Power", do którego dodali samoloty z "trybem zawisu" ... no to zrobiłem bieda poradnik do tego ... jest to teraz współczenie najstarszy publiczny filmik na kanale ... jak ktoś pisze "zawis niedostepny" to pewnie leci za szybko i chuj xDD, (trzeba zwolnić do ok 170km/h)
+z miają z 2 ... 3 dni i patrzę na YT studio ... "o chuj 100wyś, setny sub na kanale ... le't go, filmik obejrzął się lepiej jak każdy poprzedni w hisotrii moich internetowych tworów xDD"
+z czasem coś tam nadal wstawiałem trochę z WT "bo zażarło" ale nie tylko ... faktycznie na serio za kanał z WT wziołem się po wydaniu (pierwszej wersji) poradnika o pojazdach dywizjonowcyh ... który rozpoczoł mój streak robienia filmów "raz na tydzień, lub częściej" i faktyczny WT-kowy kanał<br>
+<br>
+<strong>"4 Kanał" - czyli ten aktualny</strong> <br>
+niby mówimy o już o 2021, to jednak kontent się wyklarowal, nagrywam sobie Wa Thunda i tyle, więc opowiem o kilku rzeczach z tego co juz z czasów publicznie dostepnych filmów, a możecie nie kojarzeć bo to nie było w prost mówione<br>
+<br>
+incydent pierwszych 1000 subów<br>
+pamietam że raz z pomocą kowala z którym już tedy czasami gadałem na steamach jego czy coś, udało się dobić upragnionych przez lata 1000 subów, świętowałem to z ludzi na kolejnym discordowym serwerze ... i nagle napisał do mnie jakiś typ na pv
+"siema turteł, bo robię bota na DC, dodasz go na serwer" <br>
+... jak się to skoczyło, możecie się domyśleć ...bo wypierdiło serwer z godzinę później xD<br>
+<br>
+odma <br>
+18.05.2022, raz z dosłowie napisaniem ostanich z matur i tak ukończeniem edukacji, wracając ze szkoły ten ostani raz, nagle poczułem się w chuj źle, poczułem ścisk jak by w ciele miał bym znacznie inne cisnienie ... wróciłem do domu, czekałem na rodziców, który poszli ze mną na badania
+kilku lekarzu przeciągu tego dnia mnie badało, wyszło że odma (czyli dosłownie dziura w płcu) ... potem 3 specialna dniowa operacja lecznicza, skoczyła się pełno prawną operacją (której miało nie być) i leżeniem 3 tygodnie ... pisze to bo był to pierwszy moment kiedy faktycznie filmy dłuszy czasie nie pojawiały<br>
+<br>
+praca (2023)<br>
+też o czym warto wspomnieć, to moment kiedy pracowałem, 3 zmianówka nie dobijała i doszła do ostaniego incydentu discordowego, wyjebałem moderacja na względ na znów nie dopowiedznia i moje wieczne zmęczenie, też w tym okresie z 3-4 miesiące prawie nie robiłem filmów ... choć chyba mało kto to zauważył ... ostatecznie tedy finalnie skoczyłem z "stresowaniem się, robieniem filmów filmów na silę "minimam raz na tydzieć" ... aktualnie robię filmy kiedy mi się chce ... lepiej robić filmy z chęci niż na się, piszę o tym, bo realnie tedy byłem dość blisko skoczenia z YT, nie chciało mi się już tego robić ze względu na "wieczne zmęczenie" jakie mialem na względ na niby "prostą pracę"
+<br>
+<br>
+<strong>Epilog</strong><br> piszę ten tektst 3.09.2024, jak widzicie nadal tworzę w internecie, i wstawiam filmy, choć często sobie rozmyślam czy ten YT do dla mnie szana, bo jednak poznalem jakiś ludzi, mam z nimi kontakt i buduje jakieś community w intenrecie przy czym jakoś twórco wyrażam sie w intencie, nie przepiralajac czasu tylko grając w gierki, jednak z drugiej strony, mam wrażenie że YT zabiera mi dużo czasu, wpływa na moje decyzje życiowe, i może lepiej abym nie na potkał się na tą całą internetową toksyne ... tylko czy tedy nie stał się z jescze większym odciętym od ludzi piwniczakiem? ... no nie wiem
+<br>
+ostatecznie dziękuje, że chociarz mam takie community że z 3 osoby może chciały przeczytać te wypociny do końca, jak widzcie trochę ta historia opiera się na braku większego celu w tym wszystkim, discordowych kłutniach i próbach zniknięcia, sam nie wiem czy to co tworzę ma większy sens będąc szeczerm<br>
+
+</div>
+
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=GT-PJ5VZNTG"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'GT-PJ5VZNTG');
+</script>
+
+<p><div><h3>Linki</h3>
+<blockquote>
+
+<strong>Youtube - Turteł (Gł&oacute;wny kanał)</strong><br /><a href="https://www.youtube.com/@Turteł" target="_blank" rel="noopener noreferrer">https://www.youtube.com/@Turteł</a><br />
+<strong>Youtube - Turteł Klipy (Poboczny kanał)</strong><br /><a href="https://www.youtube.com/@TurteKlipy-kc9de" target="_blank" rel="noopener noreferrer">https://www.youtube.com/@TurteKlipy-kc9de</a><br />
+<strong>Twitch - Turteł</strong><br /><a href="https://www.twitch.tv/turtelpl" target="_blank" rel="noopener noreferrer">https://www.twitch.tv/turtelpl</a><br />
+<strong>Serwer discord</strong><br /><a href="https://discord.gg/GHcumN73dE" target="_blank" rel="noopener noreferrer">https://discord.gg/GHcumN73dE</a><br />
+</blockquote></p>
+<iframe src="https://discord.com/widget?id=815605322165125130&theme=dark" width="500" height="250" allowtransparency="true" frameborder="1" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe></div>
+
+<p>o ile ja jako Tutel zarządzam tutaj treściami, jestem taką nietechniczną amebą, że samemu tego nie prowadzę, nie odpowiadam za to że <a title="numer karty kredytowej" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">numer karty kredytowej</a> twojej mamy tu wpisałeś ... (jak by się jeszcze dało) :P 
+
+<br /><strong>Kontakt - turtelcontact@gmail.com
+<br />Tutel shitty videło eterjement 2024</p>
