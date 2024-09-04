@@ -38,7 +38,6 @@ document.addEventListener('keydown', function(e) {
 });
 
 function activateCheats() {
-  document.body.style.backgroundImage = "url('Grafiki na strone/u1f44d_u1f422.png')";
 
-  alert("tak, konami code działa na żółf stronie ... ale nic nie robi");
+  alert("czy nie masz tak czasami, że chcesz coś zrobić, ale nie wierz co konkretnego? ... tak powstają takie kanały jak mój na YT");
 }
