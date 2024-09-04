@@ -38,10 +38,7 @@ document.addEventListener('keydown', function(e) {
 });
 
 function activateCheats() {
-  document.body.style.backgroundImage = "url('images/cheatBackground.png')";
+  document.body.style.backgroundImage = "url('Grafiki na strone/u1f44d_u1f422.png')";
 
-  var audio = new Audio('audio/pling.mp3');
-  audio.play();
-
-  alert("cheats activated");
+  alert("tak, konami code działa na żółf stronie ... ale nic nie robi");
 }
