@@ -39,5 +39,5 @@ document.addEventListener('keydown', function(e) {
 
 function activateCheats() {
 
-  alert("czy nie masz tak czasami, że chcesz coś zrobić, ale nie wierz co konkretnego? ... tak powstają takie kanały jak mój na YT");
+  alert("Czy nie masz tak czasami, że chcesz coś zrobić, ale nie wierz co konkretnego? ... tak powstają takie kanały na YouTube, jak mój. Na podobnej zasadzie na tej stronie dodałem ten konami code ... bo mogłem i chciałem, ale nie miałem na to większego pomysłu. Finalnie czy to coś złego? Raczej nie, ciekawość i chęci do zanurzenia się w nieznane "hobby" może w przyszłości jakoś ci pomóc ... może ... kiedyś ... może będzie poprostu ciekawszym sposobem na spędzenie samemu czasu. ");
 }
