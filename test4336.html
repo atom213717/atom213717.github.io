@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ukrywanie Webhooka</title>
+</head>
+<body>
+    <h1>Wyślij wiadomość do Discorda</h1>
+    <form id="discordForm">
+        <textarea id="messageInput" rows="4" cols="50" placeholder="Wpisz swoją wiadomość"></textarea>
+        <br>
+        <button type="button" onclick="sendToBackend()">Wyślij</button>
+    </form>
+
+    <script>
+        async function sendToBackend() {
+            const message = document.getElementById('messageInput').value;
+
+            if (!message) {
+                alert("Proszę wpisać wiadomość.");
+                return;
+            }
+
+            try {
+                // Wyślij wiadomość do backendu
+                const response = await fetch("http://localhost:3000/send-to-discord", {
+                    method: "POST",
+                    headers: {
+                        "Content-Type": "application/json",
+                    },
+                    body: JSON.stringify({ content: message }),
+                });
+
+                if (response.ok) {
+                    alert("Wiadomość została wysłana na Discorda!");
+                    document.getElementById('messageInput').value = ''; // Wyczyść pole tekstowe
+                } else {
+                    alert("Nie udało się wysłać wiadomości.");
+                }
+            } catch (error) {
+                console.error("Błąd:", error);
+                alert("Wystąpił problem z połączeniem z serwerem.");
+            }
+        }
+    </script>
+</body>
+</html>
