@@ -3,13 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ukrycie Webhooka</title>
-    <script src="js/server.js" defer></script> <!-- Ładowanie pliku JS -->
+    <title>Turtlisko</title>
+<link rel="icon" type="image/png" href="icon.png">
+    <meta property="og:title" content="Turtełowa strona"> 
+    <meta property="og:description" content="Żółwi zakątek internetu"> 
+    <link rel="stylesheet" href="skr/style.css">
+    <script src="skr/gtag.js" defer></script>
+  <script src="js/konami.js"></script>
+    <script src="js/server.js" defer></script>
 </head>
 <body>
-    <h1>Wyślij wiadomość do Discorda</h1>
+    <h1>Wyślij wiadomość do Turteła</h1>
     <form id="discordForm">
-        <textarea id="messageInput" rows="4" cols="50" placeholder="Wpisz swoją wiadomość"></textarea>
+        <textarea id="messageInput" rows="4" cols="50" placeholder="Wpisz co kolwiek..."></textarea>
         <br>
         <button type="button" onclick="sendToDiscord()">Wyślij</button>
     </form>
@@ -26,7 +32,7 @@
             try {
                 // Użyj funkcji z pliku webhook.js
                 await sendMessageToDiscord(message);
-                alert("Wiadomość została wysłana na Discorda!");
+                alert("Wiadomość została wysłana!");
                 document.getElementById('messageInput').value = ''; // Wyczyść pole tekstowe
             } catch (error) {
                 console.error("Błąd:", error);
