@@ -109,14 +109,14 @@ div {
 <a href="historia.html" class="button-link"><button>Historia kanału</button></a>
 <a href="textporadniki.html" class="button-link"><button>Tekstowe poradniki</button></a>
 <a href="wiadomosc.html" class="button-link"><button>Napisz do Turteła</button></a>
-<img src="Grafiki na strone/akt.png" alt="banner">
-    <h1>Wyślij wiadomość do Turteła</h1>
+<div>
+ <h1>Wyślij wiadomość do Turteła</h1>
     <form id="discordForm">
         <textarea id="messageInput" rows="4" cols="50" placeholder="Wpisz co kolwiek..."></textarea>
         <br>
         <button type="button" onclick="sendToDiscord()">Wyślij</button>
     </form>
-
+</div> 
     <script>
         async function sendToDiscord() {
             const message = document.getElementById('messageInput').value;
@@ -136,7 +136,7 @@ div {
                 alert("Wystąpił problem podczas wysyłania wiadomości.");
             }
         }
-    </script>
+    </script>  
 	<p><div><h3>Linki</h3>
 <blockquote>
 <strong>Youtube - Turteł (Gł&oacute;wny kanał)</strong><br /><a href="https://www.youtube.com/@Turteł" target="_blank" rel="noopener noreferrer">https://www.youtube.com/@Turteł</a><br />
