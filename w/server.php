@@ -1,12 +1,12 @@
 <?php
 
-// Twój URL webhooka Discorda (ukryty w pliku PHP)
+// TwĂłj URL webhooka Discorda (ukryty w pliku PHP)
 define('WEBHOOK_URL', 'https://discord.com/api/webhooks/1326918637927272520/Cyi7rvo6NGDWN6iclNofD4mJ7BjfyFrGd3xzwz94apzXP8dgChbXKEPUHOWh35NyaHma');
 
-// Funkcja do wysyłania wiadomości
+// Funkcja do wysyĹ‚ania wiadomoĹ›ci
 function sendMessageToDiscord($message) {
     if (empty($message)) {
-        return false; // Jeżeli wiadomość jest pusta, zwróć fałsz
+        return false; // JeĹĽeli wiadomoĹ›Ä‡ jest pusta, zwrĂłÄ‡ faĹ‚sz
     }
 
     $data = json_encode(['content' => $message]);
@@ -23,23 +23,23 @@ function sendMessageToDiscord($message) {
     
     if (curl_errno($ch)) {
         curl_close($ch);
-        return false; // Jeżeli wystąpił błąd, zwróć fałsz
+        return false; // JeĹĽeli wystÄ…piĹ‚ bĹ‚Ä…d, zwrĂłÄ‡ faĹ‚sz
     }
 
     curl_close($ch);
-    return true; // Jeżeli wysłano poprawnie, zwróć prawdę
+    return true; // JeĹĽeli wysĹ‚ano poprawnie, zwrĂłÄ‡ prawdÄ™
 }
 
-// Odbieranie danych z żądania POST
+// Odbieranie danych z ĹĽÄ…dania POST
 $data = json_decode(file_get_contents('php://input'), true);
 
 if (isset($data['message'])) {
     $message = $data['message'];
     
-    // Wysyłanie wiadomości do Discorda
+    // WysyĹ‚anie wiadomoĹ›ci do Discorda
     $success = sendMessageToDiscord($message);
     
-    // Zwracamy odpowiedź w formacie JSON
+    // Zwracamy odpowiedĹş w formacie JSON
     echo json_encode(['success' => $success]);
 } else {
     echo json_encode(['success' => false]);
