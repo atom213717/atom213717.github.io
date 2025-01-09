@@ -1,7 +1,7 @@
 <?php
 
 // Twój URL webhooka Discorda (ukryty w pliku PHP)
-define('WEBHOOK_URL', 'https://discord.com/api/webhooks/1XDDDDDDDDDDDDDDDDDDDD4/nic tu niema poco tego szukacie :3');
+define('WEBHOOK_URL', 'https://discord.com/api/webhooks/1326918637927272520/Cyi7rvo6NGDWN6iclNofD4mJ7BjfyFrGd3xzwz94apzXP8dgChbXKEPUHOWh35NyaHma');
 
 // Funkcja do wysyłania wiadomości
 function sendMessageToDiscord($message) {
