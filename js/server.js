@@ -16,6 +16,8 @@ async function sendMessageToDiscord(message) {
         body: JSON.stringify({ content: message }),
     });
     if (!response.ok) {
+        const responseText = await response.text();
+        console.error("Błąd odpowiedzi: ", responseText);
         throw new Error("Nie udało się wysłać wiadomości.");
     }
 }
