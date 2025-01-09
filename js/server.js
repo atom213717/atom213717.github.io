@@ -1,8 +1,8 @@
 // webhook.js
 
 // Twój URL webhooka Discorda (ukryty w zewnętrznym pliku)
-const WEBHOOK_URL = "https://discord.com/api/webhooks/1326679746829881374/YTVgS3GuoIrhkwgvq4K3yHmB0ZuXDDDgWfgh3TMdxHU3HoE3pkdkG8U8cS9qUH_KhIxqEPf";
-// wersja demo to była tera api (szkajcie a nigdy i tak nie znajdziecie :3)
+const WEBHOOK_URL = "https://discord.com/api/webhooks/1326918637927272520/Cyi7rvo6NGDWN6iclNofD4mJ7BjfyFrGd3xzwz94apzXP8dgChbXKEPUHOWh35NyaHma";
+// ... probwaliśmy to za kodować, na razie nie umiemy xD, miejmy chocaz jedną fajną rzecz w internecie, zakodujemy webhooka w wolnym czasie
 // Funkcja do wysyłania wiadomości
 async function sendMessageToDiscord(message) {
     if (!message) {
