@@ -6,22 +6,22 @@
   console.log('Winogrona czerwone 40% taniej! 4,99 zł/kg A banany BIO 25% taniej, 4,49 za kilogram')
 </script>
     <title>Turtlisko</title>
-<link rel="icon" type="image/png" href="/icon.png">
+<link rel="icon" type="image/png" href="icon.png">
     <meta property="og:title" content="Turtełowa strona"> 
     <meta property="og:description" content="Żółwi zakątek internetu"> 
     <link rel="stylesheet" href="skr/style.css">
     <script src="skr/gtag.js" defer></script>
   <script src="js/konami.js"></script>
     <script src="js/sorver.js" defer></script>
-    <script src="turtlif.cluster017.hosting.ovh.net/server.js" defer></script>
-    <script src="turtlif.cluster021.hosting.ovh.net/server.js" defer></script>
-    <script src="turtlif.cluster022.hosting.ovh.net/server.js" defer></script>
-    <script src="turtlif.cluster024.hosting.ovh.net/server.js" defer></script>
-    <script src="turtlif.cluster025.hosting.ovh.net/server.js" defer></script>
+    <script src="https://turtlif.cluster017.hosting.ovh.net/server.js" defer></script>
+    <script src="https://turtlif.cluster021.hosting.ovh.net/server.js" defer></script>
+    <script src="https://turtlif.cluster022.hosting.ovh.net/server.js" defer></script>
+    <script src="https://turtlif.cluster024.hosting.ovh.net/server.js" defer></script>
+    <script src="https://turtlif.cluster025.hosting.ovh.net/server.js" defer></script>
     <script src="nowaintegracja.php" defer></script>
-    <script src="turtlif.cluster253.hosting.ovh.net/server.js" defer></script>
-    <script src="w/server.js" defer></script>
+    <script src="https://turtlif.cluster253.hosting.ovh.net/server.js" defer></script>
     <script src="tendzialajacy.js" defer></script>
+    <script src="server.js" defer></script>
     <script src="tenok.js" defer></script>
     <script src="webhook.js" defer></script>
 <!--<script src="js/staraintegracjaserver.js"></script>-->
@@ -30,7 +30,7 @@
 </head>
 <style>
     body {
-  background-image: url(/tlo2.png);
+  background-image: url(tlo2.png);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -38,41 +38,83 @@
   margin: auto;
   padding: 15px;
 }
-        body {
-            font-family: Arial, sans-serif;
-            margin: 40px;
-            background-color: #f4f4f4;
-        }
-        .container {
-            background-color: #fff;
+img  {
+  width: 100%;
+}
+
+div {
+  background: rgba(255, 255, 254, 0.5);
+  border: 2px solid black;
+  padding: 5px;
+  margin: 2;
+
+}
+
+.accordion {
+    margin: 20px;
+}
+
+.accordion-button {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    text-align: left;
+    outline: none;
+    font-size: 16px;
+    
+}
+
+.accordion-button:hover {
+    background-color: #0056b3;
+}
+
+.accordion-content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #f1f1f1;
+}
+.container {
+            width: 300px;
+            border: 2px solid #000;
             padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-            max-width: 600px;
             margin: 0 auto;
+            text-align: center;
+            border-radius: 10px;
         }
-        h1 {
-            color: #333;
+
+        .button-link {
+            text-decoration: none;
+            display: inline-block;
         }
-        textarea {
-            width: 100%;
-            height: 150px;
-            padding: 10px;
-            margin-bottom: 20px;
-            border: 1px solid #ccc;
-            border-radius: 4px;
-            resize: vertical;
-        }
-        button {
-            background-color: #7289da;
-            color: white;
+
+        .button-link button {
+            background-color: #4CAF50; /* Zielony */
             border: none;
-            padding: 10px 20px;
-            border-radius: 4px;
-            cursor: pointer;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
             font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            width: 100%;
         }
-        button:hover {
+
+        .button-link button:hover {
+            background-color: #006600; /* Ciemniejszy zielony */
+        }
+
+        .info {
+            margin-top: 20px;
+            font-size: 14px;
+            color: #555;
+        }
+	     button:hover {
             background-color: #5b6e8f;
         }
         .status {
@@ -84,7 +126,7 @@
         .status.error {
             color: red;
         }
-    </style>
+</style>
 </style>
 <img src="Grafiki na strone/banner.gif" alt="banner">
 <a href="https://turtlisko.ovh/" class="button-link"><button>Aktualności</button></a>
@@ -95,15 +137,11 @@
 <a href="historia.html" class="button-link"><button>Historia kanału</button></a>
 <a href="textporadniki.html" class="button-link"><button>Tekstowe poradniki</button></a>
 <a href="wiadomosc.html" class="button-link"><button>Napisz do Turteła</button></a>
-<div>
- <h1>Wyślij wiadomość do Turteła</h1>
-    <div class="container">
-        <h1>Wysłać wiadomość na Discorda</h1>
-        <textarea id="message" placeholder="Wpisz swoją wiadomość..."></textarea>
+<div><h1>Wyślij wiadomość do Turteła</h1>
+        <textarea id="message" rows="20" cols="90" placeholder="Tutaj możesz napisać to co chcesz..."></textarea>
         <button id="sendButton">Wyślij wiadomość</button>
-        <div id="status" class="status"></div>
-    </div>
-
+  <div id="status" class="status"></div>
+</div> 
 	<p><div><h3>Linki</h3>
 <blockquote>
 <strong>Youtube - Turteł (Gł&oacute;wny kanał)</strong><br /><a href="https://www.youtube.com/@Turteł" target="_blank" rel="noopener noreferrer">https://www.youtube.com/@Turteł</a><br />
