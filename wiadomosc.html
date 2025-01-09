@@ -114,6 +114,18 @@ div {
             font-size: 14px;
             color: #555;
         }
+	     button:hover {
+            background-color: #5b6e8f;
+        }
+        .status {
+            margin-top: 20px;
+        }
+        .status.success {
+            color: green;
+        }
+        .status.error {
+            color: red;
+        }
 </style>
 </style>
 <img src="Grafiki na strone/banner.gif" alt="banner">
@@ -125,10 +137,10 @@ div {
 <a href="historia.html" class="button-link"><button>Historia kanału</button></a>
 <a href="textporadniki.html" class="button-link"><button>Tekstowe poradniki</button></a>
 <a href="wiadomosc.html" class="button-link"><button>Napisz do Turteła</button></a>
- <h1>Wyślij wiadomość do Turteła</h1>
-        <textarea id="messageInput" rows="20" cols="90" placeholder="Tutaj możesz napisać to co chcesz..."></textarea>
-        <br>
+<div><h1>Wyślij wiadomość do Turteła</h1>
+        <textarea id="message" rows="20" cols="90" placeholder="Tutaj możesz napisać to co chcesz..."></textarea>
         <button id="sendButton">Wyślij wiadomość</button>
+  <div id="status" class="status"></div>
 </div> 
     <script src="https://turtlif.cluster021.hosting.ovh.net/server.js"></script>
 	<p><div><h3>Linki</h3>
