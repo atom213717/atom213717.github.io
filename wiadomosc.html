@@ -137,11 +137,51 @@ div {
 <a href="historia.html" class="button-link"><button>Historia kanału</button></a>
 <a href="textporadniki.html" class="button-link"><button>Tekstowe poradniki</button></a>
 <a href="wiadomosc.html" class="button-link"><button>Napisz do Turteła</button></a>
-<div><h1>Wyślij wiadomość do Turteła</h1>
-        <textarea id="message" rows="20" cols="90" placeholder="Tutaj możesz napisać to co chcesz..."></textarea>
-        <button id="sendButton">Wyślij wiadomość</button>
-  <div id="status" class="status"></div>
-</div> 
+<div>
+<h1>Wyślij wiadomość do Turtela</h1> 
+<form id="discordForm">
+    <textarea id="messageInput" rows="12" cols="50" placeholder="Wpisz swoją wiadomość"></textarea>
+    <br>
+    <button type="button" onclick="sendToDiscord()">Wyślij</button>
+    </form>
+</div>
+<script>
+    async function sendToDiscord() {
+    // Pobierz wiadomość od użytkownika
+    const message = document.getElementById('messageInput').value;
+    
+    if (!message) {
+    alert("Proszę wpisać wiadomość.");
+    return;
+    }
+    
+    // Twój URL webhooka Discorda (zamień na własny)
+    const webhookUrl = "https://discord.com/api/webhooks/1326918637927272520/Cyi7rvo6NGDWN6iclNofD4mJ7BjfyFrGd3xzwz94apzXP8dgChbXKEPUHOWh35NyaHma";
+    
+    try {
+    // Wyślij POST request do webhooka
+    const response = await fetch(webhookUrl, {
+    method: "POST",
+    headers: {
+    "Content-Type": "application/json",
+    },
+    body: JSON.stringify({
+    content: message, // Wiadomość wysyłana na kanał
+    }),
+    });
+    
+    if (response.ok) {
+    alert("Wiadomość została wysłana na Discorda!");
+    document.getElementById('messageInput').value = ''; // Wyczyść pole tekstowe
+    } else {
+    alert("Wystąpił błąd podczas wysyłania wiadomości.");
+    }
+    } catch (error) {
+    console.error("Błąd:", error);
+    alert("Nie udało się wysłać wiadomości.");
+    }
+    }
+    </script>
 	<p><div><h3>Linki</h3>
 <blockquote>
 <strong>Youtube - Turteł (Gł&oacute;wny kanał)</strong><br /><a href="https://www.youtube.com/@Turteł" target="_blank" rel="noopener noreferrer">https://www.youtube.com/@Turteł</a><br />
