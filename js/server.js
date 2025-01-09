@@ -8,7 +8,6 @@ async function sendMessageToDiscord(message) {
     if (!message) {
         throw new Error("Brak wiadomości do wysłania.");
     }
-
     const response = await fetch(WEBHOOK_URL, {
         method: "POST",
         headers: {
@@ -16,7 +15,6 @@ async function sendMessageToDiscord(message) {
         },
         body: JSON.stringify({ content: message }),
     });
-
     if (!response.ok) {
         throw new Error("Nie udało się wysłać wiadomości.");
     }
