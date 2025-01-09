@@ -12,21 +12,7 @@
     <link rel="stylesheet" href="skr/style.css">
     <script src="skr/gtag.js" defer></script>
   <script src="js/konami.js"></script>
-    <script src="js/sorver.js" defer></script>
-    <script src="https://turtlif.cluster017.hosting.ovh.net/server.js" defer></script>
-    <script src="https://turtlif.cluster021.hosting.ovh.net/server.js" defer></script>
-    <script src="https://turtlif.cluster022.hosting.ovh.net/server.js" defer></script>
-    <script src="https://turtlif.cluster024.hosting.ovh.net/server.js" defer></script>
-    <script src="https://turtlif.cluster025.hosting.ovh.net/server.js" defer></script>
-    <script src="nowaintegracja.php" defer></script>
-    <script src="https://turtlif.cluster253.hosting.ovh.net/server.js" defer></script>
-    <script src="tendzialajacy.js" defer></script>
-    <script src="server.js" defer></script>
-    <script src="tenok.js" defer></script>
-    <script src="webhook.js" defer></script>
-<!--<script src="js/staraintegracjaserver.js"></script>-->
-<!-- Integracja api za pomoca javascript POST-->
-<!-- chcecie link do webhooka to jedzcie do francji-->
+    <script src="js/server.js" defer></script>
 </head>
 <style>
     body {
@@ -64,7 +50,7 @@ div {
     text-align: left;
     outline: none;
     font-size: 16px;
-    
+
 }
 
 .accordion-button:hover {
@@ -114,19 +100,6 @@ div {
             font-size: 14px;
             color: #555;
         }
-	     button:hover {
-            background-color: #5b6e8f;
-        }
-        .status {
-            margin-top: 20px;
-        }
-        .status.success {
-            color: green;
-        }
-        .status.error {
-            color: red;
-        }
-</style>
 </style>
 <img src="Grafiki na strone/banner.gif" alt="banner">
 <a href="https://turtlisko.ovh/" class="button-link"><button>Aktualności</button></a>
@@ -138,50 +111,33 @@ div {
 <a href="textporadniki.html" class="button-link"><button>Tekstowe poradniki</button></a>
 <a href="wiadomosc.html" class="button-link"><button>Napisz do Turteła</button></a>
 <div>
-<h1>Wyślij wiadomość do Turtela</h1> 
-<form id="discordForm">
-    <textarea id="messageInput" rows="12" cols="50" placeholder="Wpisz swoją wiadomość"></textarea>
-    <br>
-    <button type="button" onclick="sendToDiscord()">Wyślij</button>
+ <h1>Wyślij wiadomość do Turteła</h1>
+    <form id="discordForm">
+        <textarea id="messageInput" rows="20" cols="90" placeholder="Tutaj możesz napisać to co chcesz... ."></textarea>
+        <br>
+        <button type="button" onclick="sendToDiscord()">Wyślij</button>
     </form>
-</div>
-<script>
-    async function sendToDiscord() {
-    // Pobierz wiadomość od użytkownika
-    const message = document.getElementById('messageInput').value;
-    
-    if (!message) {
-    alert("Proszę wpisać wiadomość.");
-    return;
-    }
-    
-    // Twój URL webhooka Discorda (zamień na własny)
-    const webhookUrl = "https://discord.com/api/webhooks/1326918637927272520/Cyi7rvo6NGDWN6iclNofD4mJ7BjfyFrGd3xzwz94apzXP8dgChbXKEPUHOWh35NyaHma";
-    
-    try {
-    // Wyślij POST request do webhooka
-    const response = await fetch(webhookUrl, {
-    method: "POST",
-    headers: {
-    "Content-Type": "application/json",
-    },
-    body: JSON.stringify({
-    content: message, // Wiadomość wysyłana na kanał
-    }),
-    });
-    
-    if (response.ok) {
-    alert("Wiadomość została wysłana na Discorda!");
-    document.getElementById('messageInput').value = ''; // Wyczyść pole tekstowe
-    } else {
-    alert("Wystąpił błąd podczas wysyłania wiadomości.");
-    }
-    } catch (error) {
-    console.error("Błąd:", error);
-    alert("Nie udało się wysłać wiadomości.");
-    }
-    }
-    </script>
+</div> 
+    <script>
+        async function sendToDiscord() {
+            const message = document.getElementById('messageInput').value;
+
+            if (!message) {
+                alert("Proszę wpisać wiadomość.");
+                return;
+            }
+
+            try {
+                // Użyj funkcji z pliku webhook.js
+                await sendMessageToDiscord(message);
+                alert("Wiadomość została wysłana do Turteła! ... przeczyta ją w wolnym czasie :)");
+                document.getElementById('messageInput').value = ''; // Wyczyść pole tekstowe
+            } catch (error) {
+                console.error("Błąd:", error);
+                alert("Wystąpił problem podczas wysyłania wiadomości.");
+            }
+        }
+    </script>  
 	<p><div><h3>Linki</h3>
 <blockquote>
 <strong>Youtube - Turteł (Gł&oacute;wny kanał)</strong><br /><a href="https://www.youtube.com/@Turteł" target="_blank" rel="noopener noreferrer">https://www.youtube.com/@Turteł</a><br />
@@ -196,4 +152,3 @@ div {
 <br /><strong>Kontakt - turtelcontact@gmail.com
 <br />Tutel shitty videło eterjement 2024-2025</p></div>
 </html>
-
